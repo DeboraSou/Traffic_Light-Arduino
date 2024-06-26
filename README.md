@@ -18,8 +18,8 @@ Este repositório contém um programa simples em **C++** para Arduino que simula
 
 - Placa Arduino (Arduino Uno);
 - Três LEDs (Verde, Amarelo e Vermelho);
-- Resistores (valores adequados para os LEDs);
-- jumpers para a conexão.
+- Resistores (Valores adequados para os LEDs);
+- Jumpers (Fios para conexão).
 
 ## ⚙️ Configuração
 
