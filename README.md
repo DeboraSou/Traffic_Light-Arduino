@@ -25,9 +25,9 @@ Este repositório contém um programa simples em **C++** para Arduino que simula
 
 Certifique-se de que os LEDs estão conectados aos seguintes pinos digitais na sua placa Arduino:
 
-- LED Verde: Pino 11;
-- LED Amarelo: Pino 12;
-- LED Vermelho: Pino 13.
+- **LED Verde:** Pino 11;
+- **LED Amarelo:** Pino 12;
+- **LED Vermelho:** Pino 13.
 
 ## 🚥 Funcionamento do Código Arduino
 
@@ -44,9 +44,9 @@ void setup()
 
 A função **loop()** define o comportamento do semáforo:
 
-- Luz Verde: Permanece acesa por 5 segundos e depois apaga por 1 segundo.
-- Luz Amarela: Permanece acesa por 2 segundos e depois apaga por 1 segundo.
-- Luz Vermelha: Permanece acesa por 5 segundos e depois apaga por 1 segundo.
+- **Luz Verde:** Permanece acesa por 5 segundos e depois apaga por 1 segundo.
+- **Luz Amarela:** Permanece acesa por 2 segundos e depois apaga por 1 segundo.
+- **Luz Vermelha:** Permanece acesa por 5 segundos e depois apaga por 1 segundo.
 
 ```cpp
 void loop()
