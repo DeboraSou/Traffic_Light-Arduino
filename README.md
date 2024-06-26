@@ -36,34 +36,31 @@ A função **setup()** inicializa os pinos dos LEDs como saídas:
 ```cpp
 void setup()
 {
-  pinMode(11, OUTPUT); // LED 🟢.
-  pinMode(12, OUTPUT); // LED 🟡.
-  pinMode(13, OUTPUT); // LED 🔴.
+  pinMode(11, OUTPUT);
+  pinMode(12, OUTPUT);
+  pinMode(13, OUTPUT);
 }
 ```
 
 A função **loop()** define o comportamento do semáforo:
 
-- **Luz Verde:** Permanece acesa por 5 segundos e depois apaga por 1 segundo.
-- **Luz Amarela:** Permanece acesa por 2 segundos e depois apaga por 1 segundo.
-- **Luz Vermelha:** Permanece acesa por 5 segundos e depois apaga por 1 segundo.
+- **Luz 🟢:** Permanece acesa por 5 segundos e depois apaga por 1 segundo.
+- **Luz 🟡:** Permanece acesa por 2 segundos e depois apaga por 1 segundo.
+- **Luz 🔴:** Permanece acesa por 5 segundos e depois apaga por 1 segundo.
 
 ```cpp
 void loop()
 {
-  🟢
   digitalWrite(11, HIGH);
   delay(5000);
   digitalWrite(11, LOW);
   delay(1000);
   
-  🟡
   digitalWrite(12, HIGH);
   delay(2000);
   digitalWrite(12, LOW);
   delay(1000);
   
-  🔴
   digitalWrite(13, HIGH);
   delay(5000);
   digitalWrite(13, LOW);
@@ -76,3 +73,20 @@ void loop()
 - Conecte o Arduino ao computador através do cabo USB.
 - Carregue o código para o Arduino utilizando a IDE do Arduino ou outro software compatível.
 - A sequência de operação do semáforo (🟢 **->** 🟡 **->** 🔴) iniciará imediatamente após o término do carregamento.
+
+## Imagem do Projeto em Funcionamento
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="assets/traffic-light.png" alt="Semáforo">
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <b>Figura 1:</b> Projeto do semáforo utilizando LEDs conectados a uma placa Arduino em funcionamento.
+      </td>
+    </tr>
+  </table>
+</div>
