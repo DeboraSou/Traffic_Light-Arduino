@@ -29,7 +29,7 @@ Certifique-se de que os LEDs estão conectados aos seguintes pinos digitais na s
 - **LED Amarelo:** Pino 12;
 - **LED Vermelho:** Pino 13.
 
-##  Funcionamento do Código Arduino
+## 🚥 Funcionamento do Código Arduino
 
 A função **setup()** inicializa os pinos dos LEDs como saídas:
 
