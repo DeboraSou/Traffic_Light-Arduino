@@ -16,9 +16,10 @@ Este repositório contém um programa simples em **C++** para Arduino que simula
 
 ## 🧰 Componentes Utilizados
 
-- Placa Arduino (Arduino Uno);
+- Placa Arduino (Arduino Uno R3);
+- Placa de ensaio pequena;
 - Três LEDs (Verde, Amarelo e Vermelho);
-- Resistores (Valores adequados para os LEDs);
+- Resistores (150 Ω);
 - Jumpers (Fios para conexão).
 
 ## ⚙️ Configuração
