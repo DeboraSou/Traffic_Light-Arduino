@@ -74,7 +74,7 @@ void loop()
 - Carregue o código para o Arduino utilizando a IDE do Arduino ou outro software compatível.
 - A sequência de operação do semáforo (🟢 **->** 🟡 **->** 🔴) iniciará imediatamente após o término do carregamento.
 
-## Imagem do Projeto em Funcionamento
+## 📸 Imagem do Projeto em Funcionamento
 
 <div align="center">
   <table>
